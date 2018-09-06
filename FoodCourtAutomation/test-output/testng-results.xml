@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="74310" started-at="2018-09-06T00:11:29Z" finished-at="2018-09-06T00:12:43Z">
+  <suite name="Suite" duration-ms="87605" started-at="2018-09-06T01:19:25Z" finished-at="2018-09-06T01:20:53Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="74310" started-at="2018-09-06T00:11:29Z" finished-at="2018-09-06T00:12:43Z">
+    <test name="Test" duration-ms="87605" started-at="2018-09-06T01:19:25Z" finished-at="2018-09-06T01:20:53Z">
       <class name="foodcourt.suite.test.AutomationSuite">
-        <test-method status="PASS" signature="BeforeTest()[pri:0, instance:foodcourt.suite.test.AutomationSuite@5b275dab]" name="BeforeTest" is-config="true" duration-ms="3068" started-at="2018-09-06T10:11:29Z" finished-at="2018-09-06T10:11:32Z">
+        <test-method status="PASS" signature="BeforeTest()[pri:0, instance:foodcourt.suite.test.AutomationSuite@5b275dab]" name="BeforeTest" is-config="true" duration-ms="6778" started-at="2018-09-06T11:19:25Z" finished-at="2018-09-06T11:19:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeTest -->
-        <test-method status="PASS" signature="UserCreation()[pri:0, instance:foodcourt.suite.test.AutomationSuite@5b275dab]" name="UserCreation" duration-ms="70471" started-at="2018-09-06T10:11:32Z" finished-at="2018-09-06T10:12:43Z">
+        <test-method status="PASS" signature="UserCreation()[pri:0, instance:foodcourt.suite.test.AutomationSuite@5b275dab]" name="UserCreation" duration-ms="80045" started-at="2018-09-06T11:19:32Z" finished-at="2018-09-06T11:20:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UserCreation -->
-        <test-method status="PASS" signature="AfterTest()[pri:0, instance:foodcourt.suite.test.AutomationSuite@5b275dab]" name="AfterTest" is-config="true" duration-ms="744" started-at="2018-09-06T10:12:43Z" finished-at="2018-09-06T10:12:43Z">
+        <test-method status="PASS" signature="AfterTest()[pri:0, instance:foodcourt.suite.test.AutomationSuite@5b275dab]" name="AfterTest" is-config="true" duration-ms="758" started-at="2018-09-06T11:20:52Z" finished-at="2018-09-06T11:20:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterTest -->
