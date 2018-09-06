@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="foodcourt.suite.test.AutomationSuite">
+        <methods>
+          <include name="BeforeTest"/>
+          <include name="UserCreation"/>
+          <include name="AfterTest"/>
+        </methods>
+      </class> <!-- foodcourt.suite.test.AutomationSuite -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
