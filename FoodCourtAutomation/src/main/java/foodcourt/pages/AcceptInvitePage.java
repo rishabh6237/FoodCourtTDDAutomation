@@ -62,7 +62,7 @@ public class AcceptInvitePage
 
     }
     
-    public Boolean verifyUserAcceptInvitePage(String head,String name)
+    public Boolean verifyUserAcceptInvitePage(String head,String name) throws InterruptedException
 
     {
     	Boolean flag=false;
@@ -71,6 +71,8 @@ public class AcceptInvitePage
     	wait.until(ExpectedConditions.visibilityOfElementLocated(headText));
     	wait.until(ExpectedConditions.visibilityOfElementLocated(firstName));
     	
+    	//Because of slowness in website
+    	Thread.sleep(5000);
     	
     	if(driver.findElement(headText).getText().equalsIgnoreCase(head) && driver.findElement(firstName).getAttribute("value").equalsIgnoreCase(name))
     	{
